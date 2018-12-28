@@ -1,0 +1,92 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir"
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 25px;
+  transition: all 0.5s;
+
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  display: block;
+  color: white;
+  text-align: center;
+  background: steelblue;
+  margin: 0 auto;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0;
+}
+
+
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.selected {
+  background: steelblue;
+  color: white;
+}
+
+#colorDisplay {
+  font-size: 4rem;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  color: steelblue;
+  font-weight: 700; 
+  text-transform: uppercase;
+  height: 100%;
+  font-size: inherit;
+  transition: all 0.3s;
+  outline: none;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+
+button:hover,
+button:active {
+  color: white;
+  background: steelblue;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
