@@ -8,7 +8,7 @@ var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 
-
+// sup
 init();
 
 function init(){
